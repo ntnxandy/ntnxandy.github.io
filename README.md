@@ -1,6 +1,6 @@
 # SE Workshop
 
-Hallo hier die Anleitungen für die Installation von NKP und NAI.
+Hallo hier die Anleitungen für unseren ***SE-Workshop NKP und NAI***.
 
 Die Docker Credentials findet Ihr im Support Portal unter NAI oder Ihr fragt mich.
 
@@ -10,3 +10,23 @@ Die Docker Credentials findet Ihr im Support Portal unter NAI oder Ihr fragt mic
 [NAI-Install](NAI-install.md)
 
 [HPOC Infos und IP-Adressen](HPOC.md)
+
+## Demo Cluster:
+Bitte nutzt die vorgegebenen IP adressen und Cluster zuordnungen
+Wir haben einen lauffähigen Cluster mit Demos unter der folgenden Adresse:
+
+Cluster DM3-POC125
+Cluster IP: https://10.54.76.37:9440/console/#login
+PrimsCentral IP:Cluster IP: https://10.54.76.7:9440/console/#login
+
+NKP:
+NAI:
+
+## DemoApps:
+
+Chatbot:
+anythingLLM
+Flowise:
+n8n:
+
+
