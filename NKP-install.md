@@ -245,6 +245,16 @@ export REGISTRY_MIRROR_URL=registry.nutanixdemo.com/docker.io
 
 dauert ca. 20 Minuten..
 
+#### NKP User und Passwort bekommen
+
+den Link bei der finalen Ausgabe kopieren und ausführen:
+
+```
+nkp get dashboard 
+nkp get dashboard --kubeconfig="/home/nutanix/nkp-quickstart/KUBE.conf"
+```
+
+---
 
 
 # Troubleshooting
