@@ -1,8 +1,3 @@
----
-layout: default
-title: "NAI Installation"
----
-
 
 # NKP Installation
 
