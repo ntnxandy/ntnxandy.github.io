@@ -3,14 +3,14 @@
 
 # NKP Infos:
 ## Tips:
-Iso sollte nicht umbenannt werden!!                                                    => Der Name wird später für die nkp-env benötigt
-Rocky image aktuellste aus den Downloads                                       => passend zu der NKP version die installiert werden soll
-NKP für Linux muss auch noch geladen werden                                => passend zu der NKP version die installiert werden soll
-Ubuntu-image für GPU muss erstellt werden                                     => mit GPU infos erweitern
+Iso sollte nicht umbenannt werden!!                                        => Der Name wird später für die nkp-env benötigt  
+Rocky image aktuellste aus den Downloads                                   => passend zu der NKP version die installiert werden soll  
+NKP für Linux muss auch noch geladen werden                                => passend zu der NKP version die installiert werden soll  
+Ubuntu-image für GPU muss erstellt werden                                  => mit GPU infos erweitern  
 
 
 ***Wichtig:***
-Updates: Der reihen nach,,nicht versionen Überspringen!!!
+Updates: Der reihen nach,,nicht versionen Überspringen!!!  
 Der Cluster Namen muss einzigartig sein! Keine Doppelten Namen! => Lizensierung geht sonst nicht!
 
 
@@ -18,9 +18,9 @@ Der Cluster Namen muss einzigartig sein! Keine Doppelten Namen! => Lizensierung 
 
 https://github.com/vEDW/nkp-quickstart
  
-[https://github.com/nutanixdev/nkp-quickstart](https://github.com/nutanixdev/nkp-quickstart)  
-[https://cluster-api.sigs.k8s.io/introduction](https://cluster-api.sigs.k8s.io/introduction)  
-[https://opendocs.nutanix.com/](https://opendocs.nutanix.com/)
+[https://github.com/nutanixdev/nkp-quickstart](https://github.com/nutanixdev/nkp-quickstart)    
+[https://cluster-api.sigs.k8s.io/introduction](https://cluster-api.sigs.k8s.io/introduction)   
+[https://opendocs.nutanix.com/](https://opendocs.nutanix.com/)  
 
 Bootcamp:
 https://bootcamps.nutanix.com/cloudnative/
