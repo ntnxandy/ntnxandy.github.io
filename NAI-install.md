@@ -102,7 +102,7 @@ Wir verwenden zur Demo folgende Modelle:
 Bei Huggingface für die LLMs, die verwendet werden sollen wie zum Beispiel meta-llama/Meta-Llama-3.1-8B-Instruct den Zugang requestieren! (Dauert evtl ein paar Stunden)
 evtl auch für google/gemma-2-2b-it
 
-`
+
 <font color="#92d050">From testing`google/gemma-2-2b-it` model is quicker to download and obtain download rights, than `meta-llama/Meta-Llama-3.1-8B-Instruct` model.</font>
 <font color="#92d050">Feel free to use the [google/gemma-2-2b-it](https://hf.co/google/gemma-2-2b-it) model if necessary. The procedure to request access to the model is the same.`</font>
 
@@ -237,6 +237,7 @@ kubectl wait --timeout=5m -n envoy-gateway-system deployment/envoy-gateway --for
 ```
 
 Output:
+
 `deployment.apps/envoy-gateway condition met`
 
 ### kserve installieren
@@ -453,7 +454,7 @@ Nutzen die IP Adresse für den NAI Service
 nai.${NAI_UI_ENDPOINT}.nip.io
 ```
 
-Beispiel:
+Output:
 <img width="198" height="27" alt="Image" src="https://github.com/user-attachments/assets/3d8484ff-20a4-43ab-9a8b-8492dc92d1f4" />
 
 #### Ingress Zertifikat erstellen:
@@ -622,7 +623,7 @@ Output:
 kubectl get events | awk '{print $1, $3}'
 ```
 
-OUtput:
+Output:
 <img width="337" height="356" alt="Image" src="https://github.com/user-attachments/assets/81a54ad5-73e6-48b2-8d47-65ff33f5ce25" />
 
 
