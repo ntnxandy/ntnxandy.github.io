@@ -121,7 +121,7 @@ Den Token solltet Ihr Euch merken, den brauchen wir später in der NAI-Gui
 
 #### benötigte Apps:
 
-Envoy Gateway
+oy Gateway
 Kserve v.0.15.0 in raw deployment
 (min Pro Lizenz wird benötigt)
 Cert Manager
@@ -313,12 +313,6 @@ export NAI_API_RWX_STORAGECLASS=nai-nfs-storage
 
 ```
 
-	export DOCKER_USERNAME=ntnxsXXX                                           #Nutanix Service Account
-	export DOCKER_PASSWORD=dckr_pat_jOFNCJQjQzut1XXX
- #Token aus dem SupportPortal
-	export NAI_CORE_VERSION=v2.4.0                                               
-
-
 und das erstellte ./env file laden:
 ```
 cp sample.env .env
@@ -373,6 +367,7 @@ helm repo update ntnx-charts
 helm pull ntnx-charts/nai-core --version=nai-core-version --untar=true
 ```
 
+---
 
 # NAI Deloyment
 
