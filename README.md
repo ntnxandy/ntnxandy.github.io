@@ -9,4 +9,4 @@ Hallo hier die Anleitungen für die Installation von NKP und NAI.
 [NAI-Install]{NAI-install.md)
 
 
-![bild](https://github.com/ntnxandy/ntnxandy.github.io/tree/e8d7d51fb403afce3b94e6cf1588b14bffad5fa9/bilder/image-24.png)
+<img width="641" height="376" alt="Image" src="https://github.com/user-attachments/assets/514d2590-d58b-4ae5-bdd5-24d91586bba3" />
