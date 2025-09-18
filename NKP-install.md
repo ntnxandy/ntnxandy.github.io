@@ -71,6 +71,7 @@ https://bootcamps.nutanix.com/cloudnative/
 
 Das Benötigte NKP Node OS Image runterladen und ins Image Repository von PC laden, oder eine Custom image über den Image Builder bauen. 
 Links: https://portal.nutanix.com/page/downloads?product=nkp
+Beispiel:  
 <img width="634" height="74" alt="Image" src="https://github.com/user-attachments/assets/1d32ccfa-c20d-4c01-a0b5-19f372e4cbf0" />
 
 
