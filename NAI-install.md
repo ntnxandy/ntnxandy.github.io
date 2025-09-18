@@ -8,6 +8,8 @@ https://nai.howntnx.win/iep/iep_test/#sample-chat-application
 Demo Katalog: (husain) 
 https://demo.lab.ntnx.pro/
 
+Installations Repo:
+https://github.com/ntnxandy/nai-install.git
 
 
 ## Tipps:
@@ -114,8 +116,6 @@ https://huggingface.co/settings/tokens
 <img width="1091" height="309" alt="Image" src="https://github.com/user-attachments/assets/85cb4a85-e7c1-4509-8b13-752ff8776927" />
 
 Den Token solltet Ihr Euch merken, den brauchen wir später in der NAI-Gui
-
-
 
 
 
@@ -723,5 +723,117 @@ curl -k -X 'POST' 'https://nai.10.x.x.216.nip.io/api/v1/chat/completions' \
 
 Output:
 <img width="698" height="458" alt="Image" src="https://github.com/user-attachments/assets/2836db5a-6360-4e66-82c6-02c3a598b0ef" />
+
+
+# Demo Apps
+
+## Chatbot App:
+
+## mit yaml files aus nai-istall/chatbot Ordner
+
+*** Das file chatbot_install.yaml vorher mit der IP anpassen***
+
+hostnames:
+  "chat.nai.10.x.x.216.nip.io"    # Input Gateway IP address
+
+
+Chatbot installation mit kubectl apply -f chatbot_install.yaml
+=> Legt automatisch einen Namespace: chat an und erstellt die App
+
+Chatbot löschen mit kubectl delete -f chatbot_delete.yaml
+=> Löscht den Namespace mit allem drum und dran :-D
+
+
+
+### Manuelle installation:
+
+Create Namespace und ihn den neuen Namespace wechseln
+```
+kubectl create ns chat
+kubens chat
+```
+
+Create the App:
+```
+kubectl apply -f -<<EOF
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nai-chatapp
+  namespace: chat
+  labels:
+    app: nai-chatapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nai-chatapp
+  template:
+    metadata:
+      labels:
+        app: nai-chatapp
+    spec:
+      containers:
+      - name: nai-chatapp
+        image: johnugeorge/nai-chatapp:0.12
+        ports:
+        - containerPort: 8502
+EOF
+```
+
+Create the service:
+```
+kubectl apply -f -<<EOF
+apiVersion: v1
+kind: Service
+metadata:
+  name: nai-chatapp
+  namespace: chat
+spec:
+  selector:
+    app: nai-chatapp
+  ports:
+    - protocol: TCP
+      port: 8502
+EOF
+```
+
+1. Change this line to point to the IP address of your NAI cluster for the `VirtualService` resource
+2. Insert `chat` as the subdomain in the `nai.10.x.x.216.nip.io` main domain.
+
+**chat.nai.10.x.x.216.nip.io
+
+```
+kubectl apply -f -<<EOF
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: nai-chatapp-route
+  namespace: chat                   # Same namespace as your chat app service
+spec:
+  parentRefs:
+  - name: nai-ingress-gateway
+    namespace: nai-system           # Namespace of the Gateway
+  hostnames:
+  - "chat.nai.10.x.x.216.nip.io"    # Input Gateway IP address
+  rules:
+  - matches:
+    - path:
+        type: PathPrefix
+        value: /
+    backendRefs:
+    - name: nai-chatapp
+      kind: Service
+      port: 8502
+EOF
+```
+
+1. We should be able to see the chat application running on the NAI cluster.
+    
+2. Input the following:
+    
+    - Endpoint URL - e.g. `https://nai.10.x.x.216.nip.io/api/v1/chat/completions` (can be found in the Endpoints on NAI GUI)
+    - Endpoint Name - e.g. `llama-8b`
+    - API key - created during Endpoint creation
 
 
