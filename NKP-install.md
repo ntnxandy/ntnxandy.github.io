@@ -70,8 +70,9 @@ https://bootcamps.nutanix.com/cloudnative/
 ### NKP Node OS Image Download
 
 Das Benötigte NKP Node OS Image runterladen und ins Image Repository von PC laden, oder eine Custom image über den Image Builder bauen. 
-
 Links: https://portal.nutanix.com/page/downloads?product=nkp
+<img width="634" height="74" alt="Image" src="https://github.com/user-attachments/assets/1d32ccfa-c20d-4c01-a0b5-19f372e4cbf0" />
+
 
 ***Alternative über den Imagebuilder***
 
@@ -222,6 +223,9 @@ export SSH_PUBLIC_KEY_FILE=~/.ssh/id_rsa.pub                              # Opti
 export CP_CATEGORIES=                                                     # Optional, used to add categories to the control plane resources in Prism Central "key1=value1,key2=value2"
 export WORKER_CATEGORIES=                                                 # Optional, used to add categories to the worker resources in Prism Central "key1=value1,key2=value2"
 ```
+Beispiel:
+<img width="1306" height="462" alt="Image" src="https://github.com/user-attachments/assets/ce5644f1-4ac5-4f27-836c-b5a6c6ffafe2" />
+
 
 TIPPS:
 
@@ -235,7 +239,9 @@ Docker-USER mit angeben
 Docker-Password anpassen
 
 export REGISTRY_MIRROR_URL=registry.nutanixdemo.com/docker.io
+<img width="576" height="404" alt="Image" src="https://github.com/user-attachments/assets/ac739d52-40c0-4988-bdfb-a791319904d1" />
 
+<img width="949" height="539" alt="Image" src="https://github.com/user-attachments/assets/82437d34-b19b-47f4-8c85-95c3bad598de" />
 
 dauert ca. 20 Minuten..
 
