@@ -210,6 +210,7 @@ Prüfen ob Cert Manager installiert ist:
 kubectl get deploy -n cert-manager
 ```
 Output:
+
 <img width="464" height="109" alt="Image" src="https://github.com/user-attachments/assets/6792c9b6-cc63-4ab0-b776-17d51b111b6d" />
 
 
