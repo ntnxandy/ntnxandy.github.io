@@ -5,7 +5,7 @@
 ## Links:
 https://nai.howntnx.win/iep/iep_test/#sample-chat-application
 
-Demo Katalog: (husain) 
+Demo Katalog im VPN: (husain) 
 https://demo.lab.ntnx.pro/
 
 Installations Repo:
