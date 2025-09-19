@@ -12,12 +12,13 @@ Die Docker Credentials findet Ihr im Support Portal unter NAI oder Ihr fragt mic
 [HPOC Infos und IP-Adressen](HPOC.md)
 
 ## Demo Cluster:
-Bitte nutzt die vorgegebenen IP adressen und Cluster zuordnungen
-Wir haben einen lauffähigen Cluster mit Demos unter der folgenden Adresse:
+
+Wenn ihr in der Zeit etwas spielen wollt, oder zeigen, dann könnt ihr den vorbereitete Cluster nutzen.   
+Wir haben einen lauffähigen Cluster mit Demos unter der folgenden Adresse:  
 
 Cluster DM3-POC125
-Cluster IP: https://10.54.76.37:9440/console/#login  
-PrimsCentral IP:Cluster IP: https://10.54.76.7:9440/console/#login  
+Cluster IP:        https://10.54.76.37:9440/console/#login  
+PrimsCentral IP:   https://10.54.76.7:9440/console/#login  
 
 NKP:  
 NAI:  
