@@ -50,16 +50,16 @@ CVM Credentials: nutanix/nx2TEch123!
 
 Cluster IP: https://10.38.251.37:9440/console/#login
 
-Position: A CVM IP: 10.38.251.29 Hypervisor IP: 10.38.251.25 IPMI IP: 10.38.251.33
-Position: B CVM IP: 10.38.251.30 Hypervisor IP: 10.38.251.26 IPMI IP: 10.38.251.34
-Position: C CVM IP: 10.38.251.31 Hypervisor IP: 10.38.251.27 IPMI IP: 10.38.251.35
-Position: D CVM IP: 10.38.251.32 Hypervisor IP: 10.38.251.28 IPMI IP: 10.38.251.36
+Position: A CVM IP: 10.38.251.29 Hypervisor IP: 10.38.251.25 IPMI IP: 10.38.251.33  
+Position: B CVM IP: 10.38.251.30 Hypervisor IP: 10.38.251.26 IPMI IP: 10.38.251.34  
+Position: C CVM IP: 10.38.251.31 Hypervisor IP: 10.38.251.27 IPMI IP: 10.38.251.35  
+Position: D CVM IP: 10.38.251.32 Hypervisor IP: 10.38.251.28 IPMI IP: 10.38.251.36  
 
 
 LOGIN CREDENTIALS
 
-Prism UI Credentials: admin/nx2Tech123!
-CVM Credentials: nutanix/nx2Tech123!
+Prism UI Credentials: admin/nx2Tech123!    
+CVM Credentials: nutanix/nx2Tech123!    
 
 ---
 
@@ -68,16 +68,16 @@ CVM Credentials: nutanix/nx2Tech123!
 
 Cluster IP: https://10.38.252.37:9440/console/#login
 
-Position: A CVM IP: 10.38.252.29 Hypervisor IP: 10.38.252.25 IPMI IP: 10.38.252.33
-Position: B CVM IP: 10.38.252.30 Hypervisor IP: 10.38.252.26 IPMI IP: 10.38.252.34
-Position: C CVM IP: 10.38.252.31 Hypervisor IP: 10.38.252.27 IPMI IP: 10.38.252.35
-Position: D CVM IP: 10.38.252.32 Hypervisor IP: 10.38.252.28 IPMI IP: 10.38.252.36
+Position: A CVM IP: 10.38.252.29 Hypervisor IP: 10.38.252.25 IPMI IP: 10.38.252.33  
+Position: B CVM IP: 10.38.252.30 Hypervisor IP: 10.38.252.26 IPMI IP: 10.38.252.34  
+Position: C CVM IP: 10.38.252.31 Hypervisor IP: 10.38.252.27 IPMI IP: 10.38.252.35  
+Position: D CVM IP: 10.38.252.32 Hypervisor IP: 10.38.252.28 IPMI IP: 10.38.252.36  
 
 
 LOGIN CREDENTIALS
 
-Prism UI Credentials: admin/nx2Tech123!
-CVM Credentials: nutanix/nx2Tech123!
+Prism UI Credentials: admin/nx2Tech123!  
+CVM Credentials: nutanix/nx2Tech123!  
 
 
 
