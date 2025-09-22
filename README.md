@@ -10,6 +10,7 @@ Die Docker Credentials findet Ihr im Support Portal unter NAI oder Ihr fragt mic
 [NAI-Install](NAI-install.md)
 
 [HPOC Infos und IP-Adressen](HPOC.md)
+[Workshop User](POC-user.md)
 
 Hier ein Aufbau der Systeme:
 
