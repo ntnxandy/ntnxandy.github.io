@@ -3,16 +3,7 @@
 <img width="749" height="450" alt="Image" src="https://github.com/user-attachments/assets/ea1bc731-1635-49f8-a683-e867b4ef01be" />
 
 
-```mermaid
-flowchart TD
-    A[Your Laptop] --> D{{HPOC or Corporate VPN}};
-    D --> G[DM3 - mit GPU]
-    G --> H[DM3-POC125 https://10.54.76.7:9440/]  
-    G --> I[DM3-POC126 https://10.54.77.7:9440/]  
-    D --> J[PHX - ohne GPU]
-    J --> K[PHX-POC251 https://10.42.251.7:9440/]  
-    K --> L[PHX-POC252 https://10.38.252.7:9440/]  
-```
+
 
 ## DM3-Cluster - mit GPU:
 
