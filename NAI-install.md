@@ -214,6 +214,7 @@ helm install eg oci://docker.io/envoyproxy/gateway-helm --version v1.3.2 -n envo
 ```
 
 Output:
+
 <img width="977" height="549" alt="Image" src="https://github.com/user-attachments/assets/a7a59043-8f24-4503-9d24-12dba9be9168" />
 
 Wenn die Installation durch ist, prüfen ob der service läuft:
@@ -257,6 +258,7 @@ helm upgrade --install kserve oci://ghcr.io/kserve/charts/kserve --version ${KSE
 =>> <font color="#92d050">dauert ca 2 minute</font>
 
 Output:
+
 <img width="705" height="442" alt="Image" src="https://github.com/user-attachments/assets/c2c1877a-097b-4c01-9b5c-4e68924b9a3c" />
 
 Checken ob kserve installiert wurde:
@@ -272,6 +274,7 @@ kubectl get pods
 ```
 
 Output:
+
 <img width="705" height="54" alt="Image" src="https://github.com/user-attachments/assets/6086ae46-08bc-4e51-95f2-5b017064dd86" />
 
 Make sure both the containers are running for `kserve-controller-manager` pod
@@ -386,6 +389,7 @@ helm upgrade --install nai-core ntnx-charts/nai-core --version=$NAI_CORE_VERSION
 ```
 
 Output:
+
 <img width="641" height="376" alt="Image" src="https://github.com/user-attachments/assets/97ef6f6a-9ed8-46e8-9579-710f4bf11c7c" />
 
 Verify:
@@ -436,6 +440,7 @@ nai.${NAI_UI_ENDPOINT}.nip.io
 ```
 
 Output:
+
 <img width="198" height="27" alt="Image" src="https://github.com/user-attachments/assets/3d8484ff-20a4-43ab-9a8b-8492dc92d1f4" />
 
 #### Ingress Zertifikat erstellen:
