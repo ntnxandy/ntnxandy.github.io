@@ -16,7 +16,7 @@ Position: A CVM IP: 10.54.76.32 Hypervisor IP: 10.54.76.28 IPMI IP: 10.54.76.36
 ***LOGIN CREDENTIALS***
 
 ***Prism UI Credentials:*** `admin / nx2TEch123!`  
-CVM Credentials: nutanix/nx2TEch123!
+***CVM Credentials:*** `nutanix / nx2TEch123!`
 
 ---
 
@@ -33,8 +33,8 @@ Position: A CVM IP: 10.54.77.32 Hypervisor IP: 10.54.77.28 IPMI IP: 10.54.77.36
 
 ***LOGIN CREDENTIALS***
 
-Prism UI Credentials: admin/nx2TEch123!  
-CVM Credentials: nutanix/nx2TEch123!
+***Prism UI Credentials:*** `admin / nx2TEch123!`  
+***CVM Credentials:*** `nutanix / nx2TEch123!`
 
 ## Fileserver:
 
@@ -56,10 +56,10 @@ Position: C CVM IP: 10.38.251.31 Hypervisor IP: 10.38.251.27 IPMI IP: 10.38.251.
 Position: D CVM IP: 10.38.251.32 Hypervisor IP: 10.38.251.28 IPMI IP: 10.38.251.36  
 
 
-LOGIN CREDENTIALS
+***LOGIN CREDENTIALS***
 
-Prism UI Credentials: admin/nx2Tech123!    
-CVM Credentials: nutanix/nx2Tech123!    
+***Prism UI Credentials:*** `admin / nx2TEch123!`  
+***CVM Credentials:*** `nutanix / nx2TEch123!`
 
 ---
 
@@ -74,10 +74,10 @@ Position: C CVM IP: 10.38.252.31 Hypervisor IP: 10.38.252.27 IPMI IP: 10.38.252.
 Position: D CVM IP: 10.38.252.32 Hypervisor IP: 10.38.252.28 IPMI IP: 10.38.252.36  
 
 
-LOGIN CREDENTIALS
+***LOGIN CREDENTIALS***
 
-Prism UI Credentials: admin/nx2Tech123!  
-CVM Credentials: nutanix/nx2Tech123!  
+***Prism UI Credentials:*** `admin / nx2TEch123!`  
+***CVM Credentials:*** `nutanix / nx2TEch123!`
 
 
 
