@@ -73,6 +73,7 @@ https://bootcamps.nutanix.com/cloudnative/
 1 x GPU node (with a minimum of 40GB of RAM and 16 vCPUs based on llama3-8B LLM model)  
 
 
+
 ### NKP Node OS Image Download
 
 Das Benötigte NKP Node OS Image runterladen und ins Image Repository von PC laden, oder eine Custom image über den Image Builder bauen. 
@@ -125,9 +126,9 @@ Ist übersichtlicher, da die pvs VG alle in dem entsprechenden Container liegen.
 ***Management:***
 - DHCP für Conrolplane (3)
 - DHCP Worker (4) 
-- DHCP für 
+ 
 ***Workload Nodes***
-- DHCP für 3 Worker
+- DHCP für 1-3 NAI Worker
 
 ---
 
@@ -143,6 +144,7 @@ NKP Node OS Image (Rocky) runterladen. (https://portal.nutanix.com/page/download
 - Runtergeladenes NKP Rocky Image nutzen
 - Storage-Container und Netzwerk auswählen
 - mit Cloud Init script installieren
+
 
 ### Cloud Init script:
 
@@ -185,12 +187,12 @@ Wenn die VM deployed ist, mit ssh und den Credentials im Cloud-init einloggen.
 
 ---
 
-# Installation
+# Installation des Clusters:
 
-Für die installation einfach die folgenden schritte ausführen:
+Für die installation einfach die folgenden Schritte ausführen:
 
-1. erst den Jumphost installieren (mit dem Cloud init script installieren)
-2. auf den Host per SSH verbinden (nutanix/nutanix/4u oder wie im script angegeben)
+1. Jumphost installieren (mit dem Cloud init script installieren)
+2. auf den Host per SSH verbinden (nutanix/nutanix/4u oder wie im script angegeben, wenn nicht geändert)
 3. git clone https://github.com/vEDW/nkp-quickstart.git ausführen
 4. in den nkp-quickstart ordner wechseln
 
@@ -201,6 +203,7 @@ Unter https://portal.nutanix.com/page/downloads?product=nkp den NKP Link für de
 7.  vi nkp-env                           (Konfig file anpassen)
 8. . nkp-create-mgmt-cluster.sh          (erstellt den Cluster auf dem Nutanix Cluster)
 9.  nkp get dashboard                    (Zugangsdaten anzeigen lassen)
+   
 ```
 nkp get dashboard --kubeconfig="/KONFIG.conf"
 ```
