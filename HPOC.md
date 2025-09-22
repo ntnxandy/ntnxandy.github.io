@@ -41,8 +41,16 @@ Position: A CVM IP: 10.54.77.32 Hypervisor IP: 10.54.77.28 IPMI IP: 10.54.77.36
 ***Prism UI Credentials:*** `admin / nx2TEch123!`  
 ***CVM Credentials:*** `nutanix / nx2TEch123!`
 
-## Fileserver:
+---
 
+## Fileserver:
+Autoad: 10.54.76.6
+Autoad: 10.54.77.6
+
+LabFS POC125:  10.54.76.55
+LabFS POC126:  10.54.77.55
+
+---
 
 ## IP-Ranges
 
@@ -106,32 +114,40 @@ Position: D CVM IP: 10.38.252.32 Hypervisor IP: 10.38.252.28 IPMI IP: 10.38.252.
 ***Prism UI Credentials:*** `admin / nx2TEch123!`  
 ***CVM Credentials:*** `nutanix / nx2TEch123!`
 
-
+---
 
 ## Fileserver:
+Autoad: 10.54.251.6
+Autoad: 10.54.252.6
+
+LabFS POC251:  10.54.251.55
+LabFS POC252:  10.54.252.55
+
+---
 
 
 ## IP-Ranges
 
-| ***PHY-POC251*** |               |                             |           |
+| PHY-POC 251 |               |                             |           |
 | ----------- | ------------- | --------------------------- | --------- |
 |             |               |                             |           |
 | USER        | NKP Manager   | Loadbalancer IP-Range       | Network   |
-| USER 1      | 10.54.251.50  | 10.54.251.51-10.54.251.55   | primary   |
-| USER 2      | 10.54.251.56  | 10.54.251.57-10.54.251.61   | primary   |
-| USER 3      | 10.54.251.62  | 10.54.251.63-10.54.251.67   | primary   |
+| USER 1      | 10.54.251.60  | 10.54.251.61-10.54.251.65   | primary   |
+| USER 2      | 10.54.251.66  | 10.54.251.57-10.54.251.71   | primary   |
+| USER 3      | 10.54.251.72  | 10.54.251.63-10.54.251.77   | primary   |
 | USER 4      | 10.54.521.140 | 10.54.251.141-10.54.251.145 | secondary |
 | USER 5      | 10.54.251.146 | 10.54.251.147-10.54.251.151 | secondary |
 | USER 6      | 10.54.251.152 | 10.54.251.153-10.54.251.157 | secondary |
 |             |               |                             |           |
-| ***PHX-POC252***  |               |                             |           |
+| PHX-POC252  |               |                             |           |
 |             |               |                             |           |
 | USER        | NKP Manager   | Loadbalancer IP-Range       | Network   |
-| User 1      | 10.54.252.50  | 10.54.252.51-10.54.252.55   | primary   |
-| User 2      | 10.54.252.56  | 10.54.252.57-10.54.252.61   | primary   |
-| User 3      | 10.54.252.62  | 10.54.252.63-10.54.252.67   | primary   |
+| User 1      | 10.54.252.60  | 10.54.252.61-10.54.252.65   | primary   |
+| User 2      | 10.54.252.66  | 10.54.252.67-10.54.252.71   | primary   |
+| User 3      | 10.54.252.72  | 10.54.252.73-10.54.252.77   | primary   |
 | User 4      | 10.54.252.140 | 10.54.252.141-10.54.252.145 | secondary |
 | User 5      | 10.54.252.146 | 10.54.252.147-10.54.252.151 | secondary |
 | User 6      | 10.54.252.152 | 10.54.252.153-10.54.252.157 | secondary |
+
 
 
