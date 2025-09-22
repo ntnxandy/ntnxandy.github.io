@@ -15,7 +15,7 @@ Position: A CVM IP: 10.54.76.32 Hypervisor IP: 10.54.76.28 IPMI IP: 10.54.76.36
 
 ***LOGIN CREDENTIALS***
 
-Prism UI Credentials: admin/nx2TEch123!  
+***Prism UI Credentials:*** `admin / nx2TEch123!`  
 CVM Credentials: nutanix/nx2TEch123!
 
 ---
