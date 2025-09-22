@@ -1,8 +1,8 @@
 
 # ***Workshop User und IP-Ranges***
 
+***Cluster mit GPU***
 
-| ***Cluster mit GPU*** |              |                           |           |
 | --------------------- | ------------ | ------------------------- | --------- |
 | ***DM3-POC125***      |              |                           |           |
 |                       |              |                           |           |
@@ -24,3 +24,7 @@
 | Joachim Neisius       | 10.54.77.146 | 10.54.77.147-10.54.77.151 | secondary |
 | Mladen Nedelikovic    | 10.54.77.152 | 10.54.77.153-10.54.77.157 | secondary |
 |                       |              |                           |           |
+
+
+
+***Cluster ohne GPU***
