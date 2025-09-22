@@ -405,6 +405,7 @@ kubectl get po,deploy
 ```
 
 Output:
+
 <img width="711" height="322" alt="Image" src="https://github.com/user-attachments/assets/d7045085-ccdc-4e2e-b348-29ec9aec4111" />
 
 
