@@ -1,25 +1,25 @@
-#NAI 
+# ***NAI-Installations Workshop*** 
 
 # Infos:
 
 ## Links:
+- auch eine sehr gute Erklärung:
 https://nai.howntnx.win/iep/iep_test/#sample-chat-application
 
-Demo Katalog im VPN: (husain) 
+- Demo Katalog im VPN: (husain) 
 https://demo.lab.ntnx.pro/
 
-Installations Repo:
+- Installations Repo:
 https://github.com/ntnxandy/nai-install.git
 
 
 ## Tipps:
 
 - geht nicht mit Starter - Pro oder Ultimate ist erforderlich
-- Sicherstellen, das genug Worker  Nodes (3) depoyed werden (autoscale aktivieren)
-- Worker Nodes mindestens 16 vCPU Cores (mehr ist besser)
+- Sicherstellen, das genug Worker Nodes (min 1) depoyed werden (autoscale aktivieren - 3)
+- Worker Nodes mindestens 16-18 vCPU Cores und min 32 GB RAM (mehr ist besser)
 
 ***Benötigte Apps:***
-- Istio (über NKP-Ultimate installieren) ( <font color="#ff0000">Wird mit der 2.40 nicht mehr verwendet</font>)
 - Prometheus-node-exporter
 - envoy-Gateway (<font color="#00b050">neu für NAI</font>)
 - Kserve
@@ -30,15 +30,8 @@ https://github.com/ntnxandy/nai-install.git
 Kubens und Kubectx wird in der Anleitung für den Wechsel der namespaces verwendet:
 kubens NAME_SPACE wechselt in den namespace. Ist deutlich einfacher als ständig den Namespace mit anzugeben.
 
-## Sizing Requirements:
-
-
-Below are the sizing requirements needed to successfully deploy NAI on a NKP Cluster (labeled as `nkpdev`) and subsequently deploying single LLM inferencing endpoint on NAI using the `meta-llama/Meta-Llama-3-8B-Instruct` LLM model.
-
-
 
 ## Kubens und Kubectx install
-
 
 ### Download:
 
@@ -63,8 +56,6 @@ export PATH=~/.kubectx:\$PATH
 EOF
 ```
 
-
-
 ---
 
 
@@ -78,7 +69,7 @@ EOF
 	- Squash - Root Squash
 - Git Repo runterladen (git clone https://github.com/ntnxandy/nai-install.git)
 
-WORKERNODES für NAI im Nodepool erweitern bevor NAI installiert wird.
+***WORKERNODES für NAI im Nodepool erweitern bevor NAI installiert wird.***
 
 
 ### NAI Docker Download Credential:
