@@ -64,8 +64,14 @@ https://bootcamps.nutanix.com/cloudnative/
 
 ---
 
-
 # Vorbereitung:
+
+## Wir installaieren den NKP Clustern mit den folgenden Vorgaben:
+
+3 x Control plane nodes
+4 x Worker nodes
+1 x GPU node (with a minimum of 40GB of RAM and 16 vCPUs based on llama3-8B LLM model)
+
 
 ### NKP Node OS Image Download
 
@@ -93,6 +99,16 @@ Link:
 https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Kubernetes-Platform-v2_12:top-nib-building-customized-image-t.html
 
 Mit dem NKP Node OS Image wird der Jumhost erstellt. 
+
+
+### Image mit GPU über den Imagebuilder erstellen:
+
+den richtigen Namen für die GPU vorher raussuchen ( GUI )!
+
+```
+nkp create image nutanix  --gpu --gpu-name=${GPU_NAME} --cluster=${NUTANIX_CLUSTER_NAME} --endpoint=${NUTANIX_PC_ENDPOINT} --subnet=${NUTANIX_SUBNET}  ubuntu-22.04
+```
+
 
 ### Container anlegen
 
