@@ -6,7 +6,7 @@
 | --------------------- | ------------ | ------------------------- | --------- |
 | ***DM3-POC125***      |              |                           |           |
 |                       |              |                           |           |
-| USER                  | NKP Manager  | Loadbalancer IP-Range     | Network   |
+| ***USER                  | NKP Manager  | Loadbalancer IP-Range     | Network***   |
 | DEMOCLUSTER           | 10.54.76.50  | 10.54.76.51-10.54.76.55   | primary   |
 | Daniel Baby           | 10.54.76.56  | 10.54.76.57-10.54.76.61   | primary   |
 | Thomas Berg           | 10.54.76.62  | 10.54.76.63-10.54.76.67   | primary   |
@@ -16,7 +16,7 @@
 |                       |              |                           |           |
 | ***DM3-POC126***      |              |                           |           |
 |                       |              |                           |           |
-| USER                  | NKP Manager  | Loadbalancer IP-Range     | Network   |
+| ***USER                  | NKP Manager  | Loadbalancer IP-Range     | Network***  |
 | Olaf Boecker          | 10.54.77.50  | 10.54.77.51-10.54.77.55   | primary   |
 | Lucas Seubert         | 10.54.77.56  | 10.54.77.57-10.54.77.61   | primary   |
 | Martin Rips           | 10.54.77.62  | 10.54.77.63-10.54.77.67   | primary   |
