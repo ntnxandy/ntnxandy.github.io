@@ -10,7 +10,6 @@ graph TD
     D --> J[PHX - ohne GPU]
     J --> K[PHX-POC251 https://10.42.251.7:9440/]
     K --> L[PHX-POC252 https://10.38.252.7:9440/]
-    
 ```
 
 ## mit GPU:
