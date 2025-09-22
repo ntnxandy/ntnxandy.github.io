@@ -190,12 +190,6 @@ kubectl get storageclass
 
 ### Cert Manager installieren
 
-!!! LÖSCHEN !!!
-```
-source $HOME/.env
-```
-
-
 Prüfen ob Cert Manager installiert ist:
 ```
 kubectl get deploy -n cert-manager
