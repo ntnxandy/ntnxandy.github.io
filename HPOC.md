@@ -13,7 +13,7 @@ graph TD
 
 ```
 
-## mit GPU:
+## DM3-Cluster - mit GPU:
 
 ### DM3-POC125
 
@@ -57,7 +57,7 @@ Position: A CVM IP: 10.54.77.32 Hypervisor IP: 10.54.77.28 IPMI IP: 10.54.77.36
 
 
 ---
-## Ohne GPU
+## PHX Cluster - ohne GPU
 
 ***PHX-POC251*** 
 
