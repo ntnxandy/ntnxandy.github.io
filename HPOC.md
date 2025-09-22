@@ -2,7 +2,7 @@
 
 
 ```mermaid
-graph TD
+flowchart TD
     A[Your Laptop] --> D{{HPOC or Corporate VPN}};
     D --> G[DM3 - mit GPU]
     G --> H[DM3-POC125 https://10.54.76.7:9440/]  
