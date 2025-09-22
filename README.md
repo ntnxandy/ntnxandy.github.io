@@ -11,6 +11,9 @@ Die Docker Credentials findet Ihr im Support Portal unter NAI oder Ihr fragt mic
 
 [HPOC Infos und IP-Adressen](HPOC.md)
 
+Hier ein Aufbau der Systeme:
+<img width="749" height="450" alt="Image" src="https://github.com/user-attachments/assets/ea1bc731-1635-49f8-a683-e867b4ef01be" />
+
 ## Demo Cluster:
 
 Wenn ihr in der Zeit etwas spielen wollt, oder zeigen, dann könnt ihr den vorbereitete Cluster nutzen.   
