@@ -67,7 +67,7 @@ https://bootcamps.nutanix.com/cloudnative/
 
 # Vorbereitung:
 
-## Wir installaieren den NKP Clustern mit den folgenden Vorgaben:
+## Wir installieren den NKP Clustern mit den folgenden Vorgaben:
 
 3 x Control plane nodes  
 4 x Worker nodes  
@@ -115,7 +115,7 @@ nkp create image nutanix  --gpu --gpu-name=${GPU_NAME} --cluster=${NUTANIX_CLUST
 ### Container anlegen
 
 Storage-Container erstellen, in den später NKP installiert werden soll. 
-Ist übersichtlicher, da die pvs VG alle in dem entsprechenden Container liegen. 
+Ist übersichtlicher, da die perstistant VolumeGroup alle in dem entsprechenden Container liegen. 
 
 ### IP-Adressen:
 
@@ -209,7 +209,7 @@ Unter https://portal.nutanix.com/page/downloads?product=nkp den NKP Link für de
 nkp get dashboard --kubeconfig="/KONFIG.conf"
 ```
    
-11. fertig !
+10. fertig !
 
 
 
