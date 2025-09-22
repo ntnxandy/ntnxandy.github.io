@@ -1,5 +1,7 @@
 # HPOC Umgebung:
 
+<img width="749" height="450" alt="Image" src="https://github.com/user-attachments/assets/ea1bc731-1635-49f8-a683-e867b4ef01be" />
+
 
 ```mermaid
 flowchart TD
