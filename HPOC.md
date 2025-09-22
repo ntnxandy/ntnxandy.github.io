@@ -1,31 +1,5 @@
 # HPOC Umgebung:
 
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <title>Mermaid Diagramm Beispiel</title>
-  <script type="module">
-    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
-    mermaid.initialize({ startOnLoad: true });
-  </script>
-</head>
-<body>
-  <h1>Mein Mermaid-Diagramm</h1>
-
-  <div class="mermaid">
-    flowchart TD
-    A[Your Laptop] --> D{{HPOC or Corporate VPN}};
-    D --> G[DM3 - mit GPU]
-    G --> H[DM3-POC125 https://10.54.76.7:9440/]  
-    G --> I[DM3-POC126 https://10.54.77.7:9440/]  
-    D --> J[PHX - ohne GPU]
-    J --> K[PHX-POC251 https://10.42.251.7:9440/]  
-    K --> L[PHX-POC252 https://10.38.252.7:9440/] 
-  </div>
-</body>
-</html>
-
 
 ```mermaid
 flowchart TD
