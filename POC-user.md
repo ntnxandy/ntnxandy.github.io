@@ -26,7 +26,7 @@
 |                       |              |                           |           |
 
 
-
+---
 
 ***Cluster ohne GPU***
 
