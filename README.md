@@ -25,7 +25,7 @@ Cluster DM3-POC125
 Cluster IP:        https://10.54.76.37:9440/console/#login  
 PrimsCentral IP:   https://10.54.76.7:9440/console/#login  
 
-NKP: 10.54.76.50 
+NKP: 10.54.76.50  
 NAI:  
 
 ## DemoApps:
