@@ -3,8 +3,8 @@
 
 ```mermaid
 graph TD
-    A[Your Laptop] --> D{HPOC or Corporate VPN};
-    D{HPOC or Corporate VPN} --> G[DM3 - mit GPU]
+    A[Your Laptop] --> D{{HPOC or Corporate VPN}};
+    D --> G[DM3 - mit GPU]
     G --> H[DM3-POC125 https://10.54.76.7:9440/]
     G --> I[DM3-POC126 https://10.54.77.7:9440/]
     D --> J[PHX - ohne GPU]
