@@ -68,9 +68,9 @@ https://bootcamps.nutanix.com/cloudnative/
 
 ## Wir installaieren den NKP Clustern mit den folgenden Vorgaben:
 
-3 x Control plane nodes
-4 x Worker nodes
-1 x GPU node (with a minimum of 40GB of RAM and 16 vCPUs based on llama3-8B LLM model)
+3 x Control plane nodes  
+4 x Worker nodes  
+1 x GPU node (with a minimum of 40GB of RAM and 16 vCPUs based on llama3-8B LLM model)  
 
 
 ### NKP Node OS Image Download
