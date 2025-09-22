@@ -16,8 +16,9 @@ Der Cluster Namen muss einzigartig sein! Keine Doppelten Namen! => Lizensierung 
 
 ## Links:
 
-https://github.com/vEDW/nkp-quickstart
- 
+Original:  
+[https://github.com/vEDW/nkp-quickstart](https://github.com/vEDW/nkp-quickstart)
+
 [https://github.com/nutanixdev/nkp-quickstart](https://github.com/nutanixdev/nkp-quickstart)    
 [https://cluster-api.sigs.k8s.io/introduction](https://cluster-api.sigs.k8s.io/introduction)   
 [https://opendocs.nutanix.com/](https://opendocs.nutanix.com/)  
