@@ -44,11 +44,11 @@ Position: A CVM IP: 10.54.77.32 Hypervisor IP: 10.54.77.28 IPMI IP: 10.54.77.36
 ---
 
 ## Fileserver:
-Autoad: 10.54.76.6
-Autoad: 10.54.77.6
+Autoad: 10.54.76.6  
+Autoad: 10.54.77.6  
 
-LabFS POC125:  10.54.76.55
-LabFS POC126:  10.54.77.55
+LabFS POC125:  10.54.76.55  
+LabFS POC126:  10.54.77.55  
 
 ---
 
@@ -117,11 +117,11 @@ Position: D CVM IP: 10.38.252.32 Hypervisor IP: 10.38.252.28 IPMI IP: 10.38.252.
 ---
 
 ## Fileserver:
-Autoad: 10.54.251.6
-Autoad: 10.54.252.6
+Autoad: 10.54.251.6  
+Autoad: 10.54.252.6  
 
-LabFS POC251:  10.54.251.55
-LabFS POC252:  10.54.252.55
+LabFS POC251:  10.54.251.55  
+LabFS POC252:  10.54.252.55  
 
 ---
 
