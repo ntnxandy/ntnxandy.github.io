@@ -73,6 +73,15 @@ https://bootcamps.nutanix.com/cloudnative/
 4 x Worker nodes  
 1 x GPU node (with a minimum of 40GB of RAM and 16 vCPUs based on llama3-8B LLM model)  
 
+---
+
+### Image mit GPU erstellen:
+
+den richtigen Namen für die GPU vorher raussuchen ( GUI )!
+
+```
+nkp create image nutanix  --gpu --gpu-name=${GPU_NAME} --cluster=${NUTANIX_CLUSTER_NAME} --endpoint=${NUTANIX_PC_ENDPOINT} --subnet=${NUTANIX_SUBNET}  ubuntu-22.04
+```
 
 
 ### NKP Node OS Image Download
