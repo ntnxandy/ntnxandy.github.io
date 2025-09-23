@@ -383,11 +383,6 @@ helm upgrade --install nai-core ntnx-charts/nai-core --version=$NAI_CORE_VERSION
 -f nkp-values.yaml
 ```
 
-
-```
-./nai-deploy.sh
-```
-
 Output:
 
 <img width="641" height="376" alt="Image" src="https://github.com/user-attachments/assets/97ef6f6a-9ed8-46e8-9579-710f4bf11c7c" />
