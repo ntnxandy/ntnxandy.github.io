@@ -406,6 +406,9 @@ Output:
 
 ### Install SSL Certificate and Gateway Elements
 
+***!!! IM HOPC KEINE PUBLIC CERTIFICATE NUTZEN !!!***
+
+
 #### Public Certificate (CA)
 <img width="772" height="208" alt="Image" src="https://github.com/user-attachments/assets/23f17b30-ba74-4b24-a8d0-8a72df762515" />
 
@@ -541,6 +544,7 @@ Wenn alles geklappt hat solltet ihr unter der IP-Adresse auf die GUI zugreifen k
 
 https://nai.NAI_Endpoint_ip.nip.io
 
+
 <img width="268" height="32" alt="Image" src="https://github.com/user-attachments/assets/1e45f16a-4934-4ce1-836d-98a61c3108c4" />
 
 <img width="593" height="424" alt="Image" src="https://github.com/user-attachments/assets/a4ca1c2f-2d4b-41bb-a071-214844062464" />
@@ -572,7 +576,7 @@ kubens nai-admin
 kubectl get jobs
 ```
 
-Output:
+Output:  
 <img width="661" height="217" alt="Image" src="https://github.com/user-attachments/assets/ad91df59-cbb4-4785-96d1-812886d9d462" />
 
 **Validate creation of pods and PVC
@@ -581,7 +585,7 @@ Output:
 kubectl get po,pvc
 ```
 
-Output:
+Output:  
 <img width="705" height="198" alt="Image" src="https://github.com/user-attachments/assets/541a66b2-e171-4a99-af13-49d00c80a457" />
 
 **Verify download of model using pod logs
@@ -596,7 +600,7 @@ kubectl logs -f nai-113745ed-54b9-40f4-997c-fd-pvc-claim
 
 <img width="924" height="189" alt="Image" src="https://github.com/user-attachments/assets/45ae2eaa-c5a2-45ab-8de6-7a570537d402" />
 
-Output:
+Output:  
 <img width="705" height="298" alt="Image" src="https://github.com/user-attachments/assets/e6c09003-01fb-47fd-abe7-ae5b650259d7" />
 
 **Optional - verify the events in the namespace for the pvc creation
@@ -605,7 +609,7 @@ Output:
 kubectl get events | awk '{print $1, $3}'
 ```
 
-Output:
+Output:  
 <img width="337" height="356" alt="Image" src="https://github.com/user-attachments/assets/81a54ad5-73e6-48b2-8d47-65ff33f5ce25" />
 
 
