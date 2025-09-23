@@ -677,39 +677,6 @@ kubectl logs -f
 
 ### Testing
 
-Prepare API Key aus der GUI und auf der CLI den Export ausführen:
-
-```
-export API_KEY=_your_endpoint_api_key  
-```
-
-***API Key eintragen aus der GUI***
-
-***curl Command zum testen der API: 
- IP-Adresse und endpoint noch anpassen***
- 
-```
-
-curl -k -X 'POST' 'https://nai.10.x.x.216.nip.io/api/v1/chat/completions' \
--H "Authorization: Bearer $API_KEY" \
--H 'accept: application/json' \
--H 'Content-Type: application/json' \
--d '{
-    "model": "ENDPOINT-NAME",
-    "messages": [
-        {
-        "role": "user",
-        "content": "What is the capital of France?"
-        }
-    ],
-    "max_tokens": 256,
-    "stream": false
-}'
-```
-
-Output:
-<img width="698" height="458" alt="Image" src="https://github.com/user-attachments/assets/2836db5a-6360-4e66-82c6-02c3a598b0ef" />
-
 
 # Demo Apps
 
@@ -819,7 +786,29 @@ EOF
 2. Input the following:
     
     - Endpoint URL - e.g. `https://nai.10.x.x.216.nip.io/api/v1/chat/completions` (can be found in the Endpoints on NAI GUI)
-    - Endpoint Name - e.g. `llama-8b`
+    - Endpoint Name - e.g. `ENDPOINT_NAME`
     - API key - created during Endpoint creation
+
+
+#### Troubleshoot:
+
+Wenn der expose nicht funktioniert:
+```
+kubectl -n namespace chat
+oder
+kubens chat
+kubectl get services
+```
+
+
+Löschen des Services:
+```
+kubectl delete services nai-chatapp
+```
+
+neuen expose anlegen:
+```
+kubectl expose deployment nai-chatapp --type=LoadBalancer --name=nai-chatapp
+```
 
 
