@@ -112,11 +112,9 @@ Den Token solltet Ihr Euch merken, den brauchen wir später in der NAI-Gui
 
 #### benötigte Apps:
 
-oy Gateway
-Kserve v.0.15.0 in raw deployment
-(min Pro Lizenz wird benötigt)
-Cert Manager
-
+Envoy Gateway  
+Kserve v.0.15.0 in raw deployment (min Pro Lizenz wird benötigt) 
+Cert Manager  
 
 
 
@@ -129,6 +127,7 @@ Cert Manager
 2. Git Repo runterladen (git clone https://github.com/ntnxandy/nai-install.git)
 3. File Storage Class erstellen (manuell)
 4. Storage Class erstellen (nai-nfs-storage.yaml ausführen)
+
 ```
 kubectl get storageclass
 ```
@@ -138,6 +137,7 @@ kubectl get storageclass
 ### Create File Storage Class
 
 Prüfen ob alles Services, Namespaces und Nodes laufen
+
 ```
 kubectl get nodes
 Kubectl get namespaces
@@ -569,7 +569,7 @@ in der Model Access control unter huggingface das gewüschte LLM Model aktiviere
 
 #### Validierung:
 
-**Get jobs in nai-admin namespace
+Get jobs in nai-admin namespace:
 
 ```
 kubens nai-admin 
@@ -577,25 +577,27 @@ kubectl get jobs
 ```
 
 Output:  
+
 <img width="661" height="217" alt="Image" src="https://github.com/user-attachments/assets/ad91df59-cbb4-4785-96d1-812886d9d462" />
 
-**Validate creation of pods and PVC
+Validate creation of pods and PVC:
 
 ```
 kubectl get po,pvc
 ```
 
 Output:  
+
 <img width="705" height="198" alt="Image" src="https://github.com/user-attachments/assets/541a66b2-e171-4a99-af13-49d00c80a457" />
 
-**Verify download of model using pod logs
+Verify download of model using pod logs
 
 ```
 kubectl logs -f _pod_associated_with_job
 ```
 
 Beispiel: (den pod nehmen)
-kubectl logs -f nai-113745ed-54b9-40f4-997c-fd-pvc-claim
+kubectl logs -f zum Beispiel: `nai-113745ed-54b9-40f4-997c-fd-pvc-claim`
 
 
 <img width="924" height="189" alt="Image" src="https://github.com/user-attachments/assets/45ae2eaa-c5a2-45ab-8de6-7a570537d402" />
@@ -603,7 +605,7 @@ kubectl logs -f nai-113745ed-54b9-40f4-997c-fd-pvc-claim
 Output:  
 <img width="705" height="298" alt="Image" src="https://github.com/user-attachments/assets/e6c09003-01fb-47fd-abe7-ae5b650259d7" />
 
-**Optional - verify the events in the namespace for the pvc creation
+Optional - verify the events in the namespace for the pvc creation
 
 ```
 kubectl get events | awk '{print $1, $3}'
@@ -635,7 +637,10 @@ Inference Endpoints Menü => Create Endpoint
 - **No of Instances**: `1`
 - **API Keys**: Create a new API key or use an existing one
 
-Create klicken
+=> Create klicken (Der Vorgang dauert etwas bis er durch ist)
+
+---
+
 
 Monitor the nai-admin namespace if servcies are starting
 
@@ -644,7 +649,8 @@ kubens nai-admin
 kubectl get po,deploy
 ```
 
-Output:
+Output:  
+
 <img width="691" height="151" alt="Image" src="https://github.com/user-attachments/assets/c8ef1795-a0e8-44be-b986-1e70bbcdf264" />
 
 Check Envents:
@@ -653,7 +659,8 @@ Check Envents:
 kubectl get events -n nai-admin --sort-by='.lastTimestamp' | awk '{print $1, $3, $5}'
 ```
 
-Output:
+Output:  
+
 <img width="493" height="262" alt="Image" src="https://github.com/user-attachments/assets/6105c0e1-9950-40f5-86b5-c5eaab271ffa" />
 
 Check status of inference servcie:
@@ -688,10 +695,12 @@ kubectl logs -f
 
 ## mit yaml files aus nai-istall/chatbot Ordner
 
-*** Das file chatbot_install.yaml vorher mit der IP anpassen***
+***Das file chatbot_install.yaml vorher mit der IP anpassen***
 
+```
 hostnames:
   "chat.nai.10.x.x.216.nip.io"    # Input Gateway IP address
+```
 
 
 Chatbot installation mit kubectl apply -f chatbot_install.yaml
@@ -758,7 +767,7 @@ EOF
 1. Change this line to point to the IP address of your NAI cluster for the `VirtualService` resource
 2. Insert `chat` as the subdomain in the `nai.10.x.x.216.nip.io` main domain.
 
-**chat.nai.10.x.x.216.nip.io
+chat.nai.10.x.x.216.nip.io oder über die IP-Adresse mit Port :8502
 
 ```
 kubectl apply -f -<<EOF
