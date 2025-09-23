@@ -75,14 +75,6 @@ https://bootcamps.nutanix.com/cloudnative/
 
 ---
 
-### Image mit GPU erstellen:
-
-den richtigen Namen für die GPU vorher raussuchen ( GUI )!
-
-```
-nkp create image nutanix ubuntu-22.04 --gpu --gpu-name=${GPU_NAME} --cluster=${NUTANIX_CLUSTER_NAME} --endpoint=${NUTANIX_PC_ENDPOINT} --subnet=${NUTANIX_SUBNET} --insecure 
-```
-
 
 ### NKP Node OS Image Download
 
@@ -117,9 +109,8 @@ Mit dem NKP Node OS Image wird der Jumhost erstellt.
 den richtigen Namen für die GPU vorher raussuchen ( GUI )!
 
 ```
-nkp create image nutanix  --gpu --gpu-name=${GPU_NAME} --cluster=${NUTANIX_CLUSTER_NAME} --endpoint=${NUTANIX_PC_ENDPOINT} --subnet=${NUTANIX_SUBNET}  ubuntu-22.04
+nkp create image nutanix ubuntu-22.04 --gpu --gpu-name=${GPU_NAME} --cluster=${NUTANIX_CLUSTER_NAME} --endpoint=${NUTANIX_PC_ENDPOINT} --subnet=${NUTANIX_SUBNET} --insecure 
 ```
-
 
 ### Container anlegen
 
