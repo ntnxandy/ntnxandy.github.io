@@ -25,7 +25,7 @@ Position: A CVM IP: 10.54.76.32 Hypervisor IP: 10.54.76.28 IPMI IP: 10.54.76.36
 
 ---
 
-### DM3-POC126
+### DM3-POC126:
 
 Your Reservation Information for DM3-POC126 (NX-3155G-G8).
 
@@ -52,7 +52,7 @@ LabFS POC126:  10.54.77.55
 
 ---
 
-## IP-Ranges
+## IP-Ranges:
 
 | ***Cluster mit GPU*** |              |                           |           |
 | --------------------- | ------------ | ------------------------- | --------- |
@@ -126,7 +126,7 @@ LabFS POC252:  10.54.252.55
 ---
 
 
-## IP-Ranges
+## IP-Ranges:
 
 | PHY-POC 251 |               |                             |           |
 | ----------- | ------------- | --------------------------- | --------- |
