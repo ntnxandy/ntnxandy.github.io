@@ -31,8 +31,6 @@ NAI:
 ## DemoApps:
 
 Chatbot:  
-anythingLLM:  
-Flowise:  
-n8n:  
+
 
 
