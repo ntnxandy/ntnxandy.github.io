@@ -52,7 +52,7 @@ https://bootcamps.nutanix.com/cloudnative/
 | MAC: Tilde ~                                                        | Mit Alt-N (Leertaste)                         |
 | kubectl get service NAME -n NAMESPACE                               | IP Übersicht mit Ingress-IP                   |
 | kubectl get pv -A                                                   | Zeigt das Storage an im K8s Cluster           |
-| kubectl get po - NAMESPACE                                          | Zeigt die Applikationen in einem Namespace an |
+| kubectl get po -n NAMESPACE                                         | Zeigt die Applikationen in einem Namespace an |
 | kubens NAMESPACE                                                    | wechselt in den Namespace                     |
 | kubectl get jobs                                                    | zeigt die laufenden Jobs an                   |
 | kubectl logs -f _pod_associated_with_job                            | Zeigt die logs für den Job an                 |
