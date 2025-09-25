@@ -42,7 +42,7 @@ https://bootcamps.nutanix.com/cloudnative/
 | kubectl get services                                                | Zeigt die Services an                         |
 | kubectl get deployments                                             | Zeigt die deployments an                      |
 | kubectl get namespaces                                              | Zeigt die namespaces an                       |
-| kubectl get sc                                                      | Zeigt den Storage an                          |
+| kubectl get sc                                                      | Zeigt den StorageClasses an                   |
 | nkp get dashboard                                                   | Zeigt die NKP admin und login an              |
 | kubectl get po -A -o wide                                           | Zeigt details der Pods an                     |
 | kubectl describe deployments traefik-forward-auth-mgmt -n kommander | Zeigt die config eines deployments an         |
@@ -54,11 +54,10 @@ https://bootcamps.nutanix.com/cloudnative/
 | kubectl get pv -A                                                   | Zeigt das Storage an im K8s Cluster           |
 | kubectl get po - NAMESPACE                                          | Zeigt die Applikationen in einem Namespace an |
 | kubens NAMESPACE                                                    | wechselt in den Namespace                     |
-| kubectx NAMESPACE                                                   | Wechselt auch den Namespace                   |
 | kubectl get jobs                                                    | zeigt die laufenden Jobs an                   |
 | kubectl logs -f _pod_associated_with_job                            | Zeigt die logs für den Job an                 |
 | kubectl get po,pvc                                                  | Zeigt die pods und den PVC an                 |
-| alias k='kubectl'                                                   | Alias auf k setzten                           |
+| alias k='kubectl'                                                   | Alias für kubectl setzten (k)                 |
 
 
 
