@@ -214,7 +214,7 @@ nkp get dashboard --kubeconfig="/KONFIG.conf"
    
 10. fertig !
 
-### GUI installation (auf der CLI)
+### Alternativ - GUI installation (auf der CLI)
 
 ```
 nkp create cluster NAME
