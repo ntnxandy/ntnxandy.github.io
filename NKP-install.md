@@ -189,6 +189,10 @@ Wenn die VM deployed ist, mit ssh und den Credentials im Cloud-init einloggen.
 
 # Installation des Clusters:
 
+Es gibt zwei wege einen Cluster zu installieren. Entweder wie hier unten aufgeführt oder über die CLI-GUI.
+
+Wir nutzen in der Anleitung den manuellen weg. 
+
 Für die installation einfach die folgenden Schritte ausführen:
 
 1. Jumphost installieren (mit dem Cloud init script installieren)
@@ -210,6 +214,11 @@ nkp get dashboard --kubeconfig="/KONFIG.conf"
    
 10. fertig !
 
+### GUI installation (auf der CLI)
+
+```
+nkp create cluster NAME
+```
 
 
 #### Env-file anpassen:
