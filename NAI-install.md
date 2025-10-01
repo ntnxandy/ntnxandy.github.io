@@ -235,12 +235,14 @@ Prüfen ob kserve installiert ist
 kubectl get deploy -n kserve
 ```
 
+
+Install kserve:
+
+Wir exportieren die version, um das richichtige Helmchart zu nutzen. 
+
 ```
 export KSERVE_VERSION=v0.15.0
 ```
-
-
-Install kserve:
 
 ```
 helm upgrade --install kserve-crd oci://ghcr.io/kserve/charts/kserve-crd --version ${KSERVE_VERSION} -n kserve --create-namespace
