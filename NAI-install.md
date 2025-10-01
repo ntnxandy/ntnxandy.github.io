@@ -174,6 +174,7 @@ volumeBindingMode: Immediate
 
 
 #### Storage Class erstellen:
+Hier bitte den Sharenamen und den Fileserver anpassen.
 
 ```
 kubectl apply -f nai-nfs-storage.yaml
