@@ -71,6 +71,41 @@ EOF
 
 ***WORKERNODES für NAI im Nodepool erweitern bevor NAI installiert wird.***
 
+---
+
+## Image mit GPU erstellen:
+
+den richtigen Namen für die GPU vorher raussuchen ( GUI )!
+
+```
+nkp create image nutanix  --gpu-name=${GPU_NAME} --cluster=${NUTANIX_CLUSTER_NAME} --endpoint=${NUTANIX_PC_ENDPOINT} --subnet=${NUTANIX_SUBNET}  ubuntu-22.04
+```
+
+Beispiel:
+```
+source nkp-env
+nkp create image nutanix ubuntu-22.04 --gpu-name="Ampere 16" --cluster=DM3-POC125 --endpoint="https://10.54.76.7:9440/" --subnet=primary-DM3-POC125 --insecure 
+```
+
+### Enable GPU Operator
+
+We will need to enable GPU operator for deploying NKP application.
+
+1. In the NKP GUI, Go to **Clusters**
+2. Click on **Kommander Host**
+3. Go to **Applications**
+4. Search for **NVIDIA GPU Operator**
+5. Click on **Enable**
+6. Click on **Configuration** tab
+7. Click on **Workspace Application Configuration Override** and paste the following yaml content
+ 
+```
+driver:
+  enabled: true
+```
+
+---
+
 
 ### NAI Docker Download Credential:
 
