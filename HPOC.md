@@ -20,8 +20,8 @@ Position: A CVM IP: 10.54.76.32 Hypervisor IP: 10.54.76.28 IPMI IP: 10.54.76.36
 
 ***LOGIN CREDENTIALS***
 
-***Prism UI Credentials:*** `admin / nx2TEch123!`  
-***CVM Credentials:*** `nutanix / nx2TEch123!`
+***Prism UI Credentials:*** `admin / nx2Tech123!`  
+***CVM Credentials:*** `nutanix / nx2Tech123!`
 
 ---
 
@@ -40,8 +40,8 @@ Position: A CVM IP: 10.54.77.32 Hypervisor IP: 10.54.77.28 IPMI IP: 10.54.77.36
 
 ***Prism Central***: https://10.54.77.7:9440/console/  
 
-***Prism UI Credentials:*** `admin / nx2TEch123!`  
-***CVM Credentials:*** `nutanix / nx2TEch123!`  
+***Prism UI Credentials:*** `admin / nx2Tech123!`  
+***CVM Credentials:*** `nutanix / nx2Tech123!`  
 
 ---
 
@@ -95,8 +95,8 @@ Position: D CVM IP: 10.38.251.32 Hypervisor IP: 10.38.251.28 IPMI IP: 10.38.251.
 
 ***LOGIN CREDENTIALS***
 
-***Prism UI Credentials:*** `admin / nx2TEch123!`  
-***CVM Credentials:*** `nutanix / nx2TEch123!`
+***Prism UI Credentials:*** `admin / nx2Tech123!`  
+***CVM Credentials:*** `nutanix / nx2Tech123!`
 
 ---
 
@@ -113,8 +113,8 @@ Position: D CVM IP: 10.38.252.32 Hypervisor IP: 10.38.252.28 IPMI IP: 10.38.252.
 
 ***LOGIN CREDENTIALS***
 
-***Prism UI Credentials:*** `admin / nx2TEch123!`  
-***CVM Credentials:*** `nutanix / nx2TEch123!`
+***Prism UI Credentials:*** `admin / nx2Tech123!`  
+***CVM Credentials:*** `nutanix / nx2Tech123!`
 
 ---
 
