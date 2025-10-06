@@ -49,8 +49,8 @@ Position: A CVM IP: 10.54.77.32 Hypervisor IP: 10.54.77.28 IPMI IP: 10.54.77.36
 Autoad: 10.54.76.6  
 Autoad: 10.54.77.6  
 
-LabFS POC125:  10.54.76.55  
-LabFS POC126:  10.54.77.55  
+files.ntnxlab.local POC125:  10.54.77.99 
+  
 
 ---
 
