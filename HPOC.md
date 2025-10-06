@@ -38,8 +38,10 @@ Position: A CVM IP: 10.54.77.32 Hypervisor IP: 10.54.77.28 IPMI IP: 10.54.77.36
 
 ***LOGIN CREDENTIALS***
 
+***Prism Central***: https://10.54.77.7:9440/console/  
+
 ***Prism UI Credentials:*** `admin / nx2TEch123!`  
-***CVM Credentials:*** `nutanix / nx2TEch123!`
+***CVM Credentials:*** `nutanix / nx2TEch123!`  
 
 ---
 
