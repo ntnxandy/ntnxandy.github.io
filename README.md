@@ -31,9 +31,9 @@ PrimsCentral IP:   https://10.54.76.7:9440/console/#login
 
 ***NKP***
 
-Username: stupefied_pascal
-Password: VRXL8RuPYj6beMKXQ1QvDEppn26D0P5aY1yT7QbboqeDzzxLoUqVNuHgWORM6Dvs
-URL: https://10.54.76.61/dkp/kommander/dashboard
+Username: stupefied_pascal  
+Password: VRXL8RuPYj6beMKXQ1QvDEppn26D0P5aY1yT7QbboqeDzzxLoUqVNuHgWORM6Dvs  
+URL: https://10.54.76.61/dkp/kommander/dashboard  
 
 ***NAI***
 
