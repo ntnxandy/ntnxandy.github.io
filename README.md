@@ -44,7 +44,8 @@ nx2Tech123!
 
 ## DemoApps:
 
-Chatbot:  
+***Chatbot:***  
+http://10.54.76.64:8502/
 
-
-
+***n8n:***
+http://10.54.76.63/home/workflows
