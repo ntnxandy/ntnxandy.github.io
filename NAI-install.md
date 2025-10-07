@@ -420,6 +420,8 @@ helm upgrade --install nai-core ntnx-charts/nai-core --version=$NAI_CORE_VERSION
 --set defaultStorageClassName=$NAI_DEFAULT_RWO_STORAGECLASS \
 -f nkp-values.yaml
 ```
+=> ACHTUNG: DOCKER_ USERNAME und DOCKER_PASSWORD muss vorher ausgefüllt werden!!  
+
 
 Output:
 
