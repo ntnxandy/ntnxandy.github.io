@@ -31,7 +31,7 @@ Position: A CVM IP: 10.54.76.32 Hypervisor IP: 10.54.76.28 IPMI IP: 10.54.76.36
 
 Your Reservation Information for DM3-POC126 (NX-3155G-G8).
 
-PE: https://10.54.77.37:9440/console/#login
+PE: https://10.54.77.37:9440/console/#login  
 PC: https://10.54.76.7:9440/    
 AD: 10.54.77.6  
 Files: labFS.ntnx.local.     IP: 10.54.76.87 
