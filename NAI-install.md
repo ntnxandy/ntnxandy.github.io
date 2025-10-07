@@ -401,7 +401,14 @@ helm pull ntnx-charts/nai-core --version=nai-core-version --untar=true
  
 <font color="#ff0000">nai-deploy.sh</font> ausführen (von git clone https://github.com/ntnxandy/nai-install.git)
 
+```
+source .env
+./nai-deploy.sh
+
+```
+
 oder selber erstellen:
+
 ```
 #!/usr/bin/env bash
 
