@@ -1,6 +1,8 @@
 
 # ***Workshop User und IP-Ranges***
 
+Bitte prüft die Euch zugewiesen IP-Range noch ob die VMs frei sind. Fals nicht, nehmt einfach andere :-D.   
+Ihr benötigt für den Loadbalancer 4 IP-Adressen.   
 
 ***Cluster mit GPU***
 
@@ -11,7 +13,7 @@
 | USER          | NKP Manager  | Loadbalancer IP-Range     | Network   |
 | PRE-Installed | 10.54.76.60  | 10.54.76.61-10.54.76.65   | primary   |
 | Daniel        | 10.54.76.66  | 10.54.76.67-10.54.76.71   | primary   |
-| Thomas        | 10.54.76.72  | 10.54.76.73-10.54.76.77    | primary   |
+| Thomas        | 10.54.76.72  | 10.54.76.73-10.54.76.77   | primary   |
 | Ralf          | 10.54.76.140 | 10.54.76.141-10.54.76.145 | secondary |
 | Phillip       | 10.54.76.146 | 10.54.76.147-10.54.76.151 | secondary |
 | Rene          | 10.54.76.152 | 10.54.76.153-10.54.76.157 | secondary |
