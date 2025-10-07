@@ -10,7 +10,10 @@
 
 Your Reservation Information for DM3-POC125 (NX-3155G-G8).
 
-Cluster IP: https://10.54.76.37:9440/console/#login
+PE: https://10.54.76.37:9440/console/#login  
+PC: https://10.54.76.7:9440/    
+AD: 10.54.76.6  
+Files: labFS.ntnx.local      IP: 10.54.76.87  
 
 Position: A CVM IP: 10.54.76.29 Hypervisor IP: 10.54.76.25 IPMI IP: 10.54.76.33  
 Position: A CVM IP: 10.54.76.30 Hypervisor IP: 10.54.76.26 IPMI IP: 10.54.76.34  
@@ -28,7 +31,10 @@ Position: A CVM IP: 10.54.76.32 Hypervisor IP: 10.54.76.28 IPMI IP: 10.54.76.36
 
 Your Reservation Information for DM3-POC126 (NX-3155G-G8).
 
-Cluster IP: https://10.54.77.37:9440/console/#login
+PE: https://10.54.77.37:9440/console/#login
+PC: https://10.54.76.7:9440/    
+AD: 10.54.77.6  
+Files: labFS.ntnx.local.     IP: 10.54.76.87 
 
 Position: A CVM IP: 10.54.77.29 Hypervisor IP: 10.54.77.25 IPMI IP: 10.54.77.33  
 Position: A CVM IP: 10.54.77.30 Hypervisor IP: 10.54.77.26 IPMI IP: 10.54.77.34  
@@ -42,16 +48,9 @@ Position: A CVM IP: 10.54.77.32 Hypervisor IP: 10.54.77.28 IPMI IP: 10.54.77.36
 ***Prism UI Credentials:*** `admin / nx2Tech123!`  
 ***CVM Credentials:*** `nutanix / nx2Tech123!`  
 
+ 
 ---
 
-## Fileserver:
-Autoad: 10.54.76.6  
-Autoad: 10.54.77.6  
-
-files.ntnxlab.local POC125:  10.54.77.99 
-  
-
----
 
 ## IP-Ranges:
 
@@ -84,7 +83,11 @@ files.ntnxlab.local POC125:  10.54.77.99
 
 ***PHX-POC251*** 
 
-Cluster IP: https://10.38.251.37:9440/console/#login
+PE: https://10.38.251.37:9440/console/#login  
+PC: https://10.38.251.7:9440/    
+AD: 10.38.251.6  
+Files: labFS.ntnx.local      IP:10.38.251.84   
+
 
 Position: A CVM IP: 10.38.251.29 Hypervisor IP: 10.38.251.25 IPMI IP: 10.38.251.33  
 Position: B CVM IP: 10.38.251.30 Hypervisor IP: 10.38.251.26 IPMI IP: 10.38.251.34  
@@ -102,7 +105,11 @@ Position: D CVM IP: 10.38.251.32 Hypervisor IP: 10.38.251.28 IPMI IP: 10.38.251.
 ***PHX-POC252***
 
 
-Cluster IP: https://10.38.252.37:9440/console/#login
+PE: https://10.38.252.37:9440/console/#login  
+PC: https://10.54.76.7:9440/    
+AD: 10.54.76.6  
+Files: labFS.ntnx.local      IP: 10.54.76.87   
+
 
 Position: A CVM IP: 10.38.252.29 Hypervisor IP: 10.38.252.25 IPMI IP: 10.38.252.33  
 Position: B CVM IP: 10.38.252.30 Hypervisor IP: 10.38.252.26 IPMI IP: 10.38.252.34  
@@ -115,14 +122,6 @@ Position: D CVM IP: 10.38.252.32 Hypervisor IP: 10.38.252.28 IPMI IP: 10.38.252.
 ***Prism UI Credentials:*** `admin / nx2Tech123!`  
 ***CVM Credentials:*** `nutanix / nx2Tech123!`
 
----
-
-## Fileserver:
-Autoad: 10.54.251.6  
-Autoad: 10.54.252.6  
-
-LabFS POC251:  10.54.251.55  
-LabFS POC252:  10.54.252.55  
 
 ---
 
