@@ -18,7 +18,7 @@ Kurze Info zum Aufbau und der Installation:
 
 Hier ein Aufbau der Systeme:
 
-<img width="2531" height="1763" alt="Image" src="https://github.com/user-attachments/assets/e0a991cc-8715-4e5e-b4d8-10186d7892a8" />
+<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/e0a991cc-8715-4e5e-b4d8-10186d7892a8" />
 
 
 
