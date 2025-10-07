@@ -18,7 +18,9 @@ Kurze Info zum Aufbau und der Installation:
 
 Hier ein Aufbau der Systeme:
 
-<img width="749" height="450" alt="Image" src="https://github.com/user-attachments/assets/ea1bc731-1635-49f8-a683-e867b4ef01be" />
+<img width="2531" height="1763" alt="Image" src="https://github.com/user-attachments/assets/e0a991cc-8715-4e5e-b4d8-10186d7892a8" />
+
+
 
 ## Demo Cluster:
 
