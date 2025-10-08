@@ -71,8 +71,8 @@ Position: A CVM IP: 10.54.77.32 Hypervisor IP: 10.54.77.28 IPMI IP: 10.54.77.36
 |                       |              |                           |           |
 | USER                  | NKP Manager  | Loadbalancer IP-Range     | Network   |
 | Olaf                  | 10.54.77.60  | 10.54.77.61-10.54.77.65   | primary   |
-| Lucas                 | 10.54.77.66  | 10.54.77.67-10.54.77.81   | primary   |
-| Martin                | 10.54.77.62  | 10.54.77.63-10.54.77.67   | primary   |
+| Lucas                 | 10.54.77.66  | 10.54.77.67-10.54.77.71   | primary   |
+| Martin                | 10.54.77.72  | 10.54.77.73-10.54.77.75   | primary   |
 | Stefan                | 10.54.77.140 | 10.54.77.141-10.54.77.145 | secondary |
 | Joachim               | 10.54.77.146 | 10.54.77.147-10.54.77.151 | secondary |
 | Mladen                | 10.54.77.152 | 10.54.77.153-10.54.77.157 | secondary |
