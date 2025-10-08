@@ -27,25 +27,25 @@ Hier ein Aufbau der Systeme:
 Wenn ihr in der Zeit etwas spielen wollt, oder zeigen, dann könnt ihr den vorbereitete Cluster nutzen.   
 Wir haben einen lauffähigen Cluster mit Demos unter der folgenden Adresse:  
 
-Cluster DM3-POC125
-Cluster IP:        (https://10.54.76.37:9440/console/#login)  
-PrimsCentral IP:   (https://10.54.76.7:9440/console/#login)  
+***Cluster DM3-POC125***  
+[Cluster IP:](https://10.54.76.37:9440/console/#login)  
+[PrimsCentral IP:](https://10.54.76.7:9440/console/#login)  
 
 ***NKP***
 
 Username: stupefied_pascal  
 Password: VRXL8RuPYj6beMKXQ1QvDEppn26D0P5aY1yT7QbboqeDzzxLoUqVNuHgWORM6Dvs  
-URL: https://10.54.76.61/dkp/kommander/dashboard  
+[Komander URL:](https://10.54.76.61/dkp/kommander/dashboard)  
 
 ***NAI***  
-https://nai.10.54.76.62.nip.io/  
+[NAI Dashboard](https://nai.10.54.76.62.nip.io/)  
 admin  
 nx2Tech123!  
 
 ## DemoApps:
 
 ***Chatbot:***  
-http://10.54.76.64:8502/
+[Chatbot-Webseite](http://10.54.76.64:8502/)
 
 ***n8n:***  
 http://10.54.76.63/home/workflows
