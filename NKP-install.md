@@ -302,7 +302,7 @@ nkp delete bootstrap   (kann man die cluster löschen)
 
 #### Cluster löschen
 ```
-nkp delte cluster --cluster-name NAME --kubeconfig= --self-managed
+nkp delete cluster --cluster-name NAME --kubeconfig= --self-managed
 ```
 
 #### Kubeconfig definieren :
