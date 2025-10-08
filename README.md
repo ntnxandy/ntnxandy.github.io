@@ -28,8 +28,8 @@ Wenn ihr in der Zeit etwas spielen wollt, oder zeigen, dann könnt ihr den vorbe
 Wir haben einen lauffähigen Cluster mit Demos unter der folgenden Adresse:  
 
 Cluster DM3-POC125
-Cluster IP:        https://10.54.76.37:9440/console/#login  
-PrimsCentral IP:   https://10.54.76.7:9440/console/#login  
+Cluster IP:        (https://10.54.76.37:9440/console/#login)  
+PrimsCentral IP:   (https://10.54.76.7:9440/console/#login)  
 
 ***NKP***
 
