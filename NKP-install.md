@@ -108,8 +108,15 @@ Mit dem NKP Node OS Image wird der Jumhost erstellt.
 den richtigen Namen für die GPU vorher raussuchen ( GUI )!
 
 ```
-nkp create image nutanix ubuntu-22.04 --gpu --gpu-name=${GPU_NAME} --cluster=${NUTANIX_CLUSTER_NAME} --endpoint=${NUTANIX_PC_ENDPOINT} --subnet=${NUTANIX_SUBNET} --insecure 
+nkp create image nutanix ubuntu-22.04 --gpu-name=${GPU_NAME} --cluster=${NUTANIX_CLUSTER_NAME} --endpoint=${NUTANIX_PC_ENDPOINT} --subnet=${NUTANIX_SUBNET} --insecure 
 ```
+Beispiel:  
+```
+source nkp-env
+nkp create image nutanix ubuntu-22.04 --gpu-name="Ampere 16" --cluster=DM3-POC125 --endpoint="https://10.54.76.7:9440/" --subnet=primary-DM3-POC125 --insecure 
+```
+
+
 
 ### Container anlegen
 
