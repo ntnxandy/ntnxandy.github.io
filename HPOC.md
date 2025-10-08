@@ -10,8 +10,8 @@
 
 Your Reservation Information for DM3-POC125 (NX-3155G-G8).
 
-PE: https://10.54.76.37:9440/console/#login  
-PC: https://10.54.76.7:9440/    
+[PE: https://10.54.76.37:9440/console/#login](https://10.54.76.37:9440/console/#login)  
+[PC: https://10.54.76.7:9440/](https://10.54.76.7:9440/)    
 AD: 10.54.76.6  
 Files: labFS.ntnx.local      IP: 10.54.76.87  
 
@@ -31,8 +31,8 @@ Position: A CVM IP: 10.54.76.32 Hypervisor IP: 10.54.76.28 IPMI IP: 10.54.76.36
 
 Your Reservation Information for DM3-POC126 (NX-3155G-G8).
 
-PE: https://10.54.77.37:9440/console/#login  
-PC: https://10.54.76.7:9440/    
+[PE: https://10.54.77.37:9440/console/#login](https://10.54.77.37:9440/console/#login)  
+[PC: https://10.54.76.7:9440/](https://10.54.76.7:9440/)     
 AD: 10.54.77.6  
 Files: labFS.ntnx.local.     IP: 10.54.76.87 
 
@@ -43,7 +43,8 @@ Position: A CVM IP: 10.54.77.32 Hypervisor IP: 10.54.77.28 IPMI IP: 10.54.77.36
 
 ***LOGIN CREDENTIALS***
 
-***Prism Central***: https://10.54.77.7:9440/console/  
+***Prism Central***: 
+[Prism Central: https://10.54.77.7:9440/console/](https://10.54.77.7:9440/console/)  
 
 ***Prism UI Credentials:*** `admin / nx2Tech123!`  
 ***CVM Credentials:*** `nutanix / nx2Tech123!`  
@@ -83,8 +84,8 @@ Position: A CVM IP: 10.54.77.32 Hypervisor IP: 10.54.77.28 IPMI IP: 10.54.77.36
 
 ***PHX-POC251*** 
 
-PE: https://10.38.251.37:9440/console/#login  
-PC: https://10.38.251.7:9440/    
+[PE: https://10.38.251.37:9440/console/#login](https://10.38.251.37:9440/console/#login)  
+[PC: https://10.38.251.7:9440/](https://10.38.251.7:9440/)    
 AD: 10.38.251.6  
 Files: labFS.ntnx.local      IP:10.38.251.84   
 
@@ -105,8 +106,8 @@ Position: D CVM IP: 10.38.251.32 Hypervisor IP: 10.38.251.28 IPMI IP: 10.38.251.
 ***PHX-POC252***
 
 
-PE: https://10.38.252.37:9440/console/#login  
-PC: https://10.54.76.7:9440/    
+[PE: https://10.38.252.37:9440/console/#login](https://10.38.252.37:9440/console/#login)  
+[PC: https://10.54.76.7:9440/](https://10.54.76.7:9440)    
 AD: 10.54.76.6  
 Files: labFS.ntnx.local      IP: 10.54.76.87   
 
