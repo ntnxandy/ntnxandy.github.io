@@ -742,11 +742,12 @@ kubectl logs -f
 
 ## mit yaml files aus nai-istall/chatbot Ordner
 
-***Das file chatbot_install.yaml vorher mit der IP anpassen***
+***Das file chatbot_install.yaml vorher mit der IP des NAI-IP anpassen***
+
 
 ```
 hostnames:
-  "chat.nai.10.x.x.216.nip.io"    # Input Gateway IP address
+  "chat.nai.10.x.x.216.nip.io"    # Input IP-Addresse der NAI Webseite
 ```
 
 
@@ -828,7 +829,7 @@ spec:
   - name: nai-ingress-gateway
     namespace: nai-system           # Namespace of the Gateway
   hostnames:
-  - "chat.nai.10.x.x.216.nip.io"    # Input Gateway IP address
+  - "chat.nai.10.x.x.216.nip.io"    # Input IP-Addresse der NAI Webseite
   rules:
   - matches:
     - path:
