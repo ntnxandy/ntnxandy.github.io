@@ -107,7 +107,7 @@ Position: D CVM IP: 10.38.251.32 Hypervisor IP: 10.38.251.28 IPMI IP: 10.38.251.
 
 
 [PE: https://10.38.252.37:9440/console/#login](https://10.38.252.37:9440/console/#login)  
-[PC: https://10.54.252.7:9440/](https://10.54.252.7:9440)    
+[PC: https://10.38.252.7:9440/](https://10.54.252.7:9440)    
 AD: 10.54.76.6  
 Files: labFS.ntnx.local      IP: 10.54.76.87   
 
