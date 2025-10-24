@@ -1,8 +1,11 @@
 # SE Workshop
 
-Hallo hier die Anleitungen für unseren ***SE-Workshop NKP und NAI***.
+Hallo hier meine Anleitungen für unseren ***SE-Workshop NKP und NAI***.
+Die Basis, für meine Anleitung basiert auf https://github.com/vEDW/nkp-quickstart.
 
-Die Docker Credentials findet Ihr im Support Portal unter NAI. 
+
+Die Docker Credentials für die NAI Installation findet Ihr im Support Portal unter NAI. 
+Bei NKP 2.16 kann Kubens und Kubectx nicht ohne weiteres Installiert werden. (gehärtetes LNX OS)
 
 Kurze Info zum Aufbau und der Installation:  
 
@@ -13,3 +16,4 @@ Kurze Info zum Aufbau und der Installation:
 [NKP-Install](NKP-install.md)  
 [NAI-Install](NAI-install.md)
 
+Viel Spaß damit. 
